@@ -16,12 +16,13 @@ ul {
 }
 h2 {
     text-align: center;
+    color: black;
 }
 h3 {
     color: white;
 }
 h1 {
-    display: inline-block;
+    display: inline-flex;
     border: 2px;
     color: white;
     list-style: none;
@@ -97,7 +98,7 @@ div img {
     width: 5rem;
 }
 .redes {
-    display: inline-block;
+    display: inline-flex;
 }
 header img {
     display: inline-block;
@@ -167,7 +168,54 @@ header img {
         grid-template-columns: repeat(1, 1fr);
     }
 }
-
-/* min: 300 - +++*/
-@media (min-width: 300px) {
+h2{
+    background-color:transparent;
+    transition: all 2s;
+}
+h2:hover{
+    transform: scale(1.2);
+}
+main .drum {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+main .drum img {
+    height: 30rem;
+    width: 30rem;
+    margin: 1rem;
+}
+main .bass {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+main .bass img {
+    height: 30rem;
+    width: 30rem;
+    margin: 1rem;
+}
+main .guitars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+main .guitars img {
+    height: 30rem;
+    width: 30rem;
+    margin: 1rem;
+}
+main .piano {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+main .piano img {
+    height: 30rem;
+    width: 30rem;
+    margin: 1rem;
 }
