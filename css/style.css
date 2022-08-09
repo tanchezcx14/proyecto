@@ -219,3 +219,8 @@ main .piano img {
     width: 30rem;
     margin: 1rem;
 }
+.imagenes{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
