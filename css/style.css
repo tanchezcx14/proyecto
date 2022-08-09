@@ -72,12 +72,11 @@ header nav ul {
     justify-content: space-around;
 }
 header nav ul li {
-    border: 2px solid black;
-    background-color: black;
-    font-size: 1.3rem;
-    padding: 1.2rem 4rem;
+    border: 3px solid transparent;
+    background-color:transparent;
+    font-size: 1.5rem;
+    padding: 1.3rem 3rem;
 }
-
 body {
     background-image: url(../imagenes/wall1.jpg);
     background-attachment: fixed;
