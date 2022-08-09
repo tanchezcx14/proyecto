@@ -224,3 +224,8 @@ main .piano img {
     align-items: center;
     justify-items: center;
 }
+
+.carousel-item img{
+width: 100px;
+height: 600px;
+}
