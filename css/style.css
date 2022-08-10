@@ -2,9 +2,6 @@
     padding: 0;
     margin: 0;
 }
-html {
-    font-size: 15px;
-}
 .botones,
 .botones nav ul li a {
     color: floralwhite;
@@ -14,8 +11,9 @@ html {
 ul {
     list-style: none;
 }
-h2 {
-    text-align: center;
+.titulo {
+    display: flex;
+    justify-content: center;
     color: black;
 }
 h3 {
@@ -97,7 +95,8 @@ div img {
     width: 5rem;
 }
 .redes {
-    display: inline-flex;
+    display: flex;
+    justify-items: center;
 }
 header img {
     display: inline-block;
@@ -152,7 +151,7 @@ header img {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    main .imgs {
+    main .imgs{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
@@ -166,12 +165,18 @@ header img {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    main.drum{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
 }
-h2{
+.titulo{
     background-color:transparent;
     transition: all 2s;
 }
-h2:hover{
+.titulo:hover{
     transform: scale(1.2);
 }
 main .drum {
