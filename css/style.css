@@ -29,11 +29,11 @@ a {
     text-decoration: none;
 }
 .botones h1 {
-    font-size: 65px;
+    font-size: 4rem;
     text-align: left;
 }
 .botones nav ul li a {
-    font-size: 15px;
+    font-size: 5rem;
     font-family: 'Poppins', sans-serif;
 }
 main img {
@@ -44,7 +44,7 @@ main h2 {
 }
 main .imgs {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     justify-items: center;
     align-items: center;
 }
@@ -61,11 +61,11 @@ main .videos {
     align-items: center;
 }
 main .videos iframe {
-    width: 80%;
-    height: 30rem;
+    width: 25rem;
+    height: 40rem;
 }
 header nav ul {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: space-around;
 }
@@ -83,7 +83,7 @@ body {
     background-size: cover;
 }
 header {
-    padding: 7px;
+    padding: 0.5rem;
     grid-area: cabecera;
 }
 
@@ -109,7 +109,7 @@ header img {
 
 @media screen and (max-width: 1800px) {
     html {
-        font-size: 15px;
+        font-size: 1rem;
     }
     header nav ul {
         display: grid;
@@ -127,7 +127,7 @@ header img {
     }
     main .imgs{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 2fr);
         justify-items: center;
         align-items: center;
     }
@@ -197,14 +197,20 @@ header img {
         grid-template-columns: repeat(1, 1fr);
     }
     main .videos iframe {
-        width: 89%;
+        width: 2rem;
+        height: 0.2rem;
         margin: 1rem 1rem;
     }
     main .imgs{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 2fr);
         justify-items: center;
         align-items: center;
+    }
+    main .imgs img {
+        height: 20rem;
+        width: 20rem;
+        margin: 1rem;
     }
 }
 @media (min-width: 576px){
@@ -222,12 +228,13 @@ header img {
         grid-template-columns: repeat(1, 1fr);
     }
     main .videos iframe {
-        width: 85%;
+        width: 35rem;
+        height: 30rem;
         margin: 2rem 1rem;
     }
     main .imgs{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 2fr);
         justify-items: center;
         align-items: center;
     }
@@ -241,7 +248,7 @@ header img {
     }
     main .imgs{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         align-items: center;
     }
@@ -276,7 +283,8 @@ header img {
         grid-template-columns: repeat(1, 1fr);
     }
     main .videos iframe {
-        width: 89%;
+        width: 10rem;
+        height: 14rem;
         margin: 1rem 1rem;
     }
     main .imgs{
@@ -288,6 +296,7 @@ header img {
     .titulo{
         font-size: 3rem;
     }
+    
 }
 .titulo{
     background-color:transparent;
