@@ -14,10 +14,11 @@ ul {
 .titulo {
     display: flex;
     justify-content: center;
+    text-align: center;
     color: black;
 }
 h3 {
-    color: white;
+    color: black;
 }
 h1 {
     display: inline-flex;
@@ -73,7 +74,7 @@ header nav ul li {
     border: 3px solid transparent;
     background-color:transparent;
     font-size: 1.5rem;
-    padding: 1.3rem 3rem;
+    padding: 1.3rem 2rem;
 }
 body {
     background-image: url(../imagenes/wall1.jpg);
@@ -99,7 +100,7 @@ div img {
     grid-template-columns: repeat(3);
 }
 header img {
-    display: inline-block;
+    display: inline-flex;
     width: 5rem;
     height: 5rem;
 }
@@ -107,7 +108,7 @@ header img {
     font-size: 1.5rem;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (min-width: 1800px) {
     html {
         font-size: 1rem;
     }
@@ -156,6 +157,7 @@ header img {
         justify-items: center;
         align-items: center;
     }
+
 }
 @media (max-width: 991.98px){
     html {
@@ -212,6 +214,58 @@ header img {
         width: 20rem;
         margin: 1rem;
     }
+    header img {
+        display: inline-flex;
+        width: 5rem;
+        height: 6rem;
+    }
+    main .bass{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .bass img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    main .drum{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .drum img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    main .piano{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .piano img {
+        width: 21rem;
+        height: 23rem;
+        margin: .8rem;
+    }
+    main .guitars{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .guitars img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    .titulo h2 {
+        font-size: 3rem;
+    }
 }
 @media (min-width: 576px){
     html {
@@ -238,7 +292,6 @@ header img {
         justify-items: center;
         align-items: center;
     }
-
 }
 /**
 @media(max-width: 800px) {
@@ -315,10 +368,12 @@ header img {
     }
     main .videos {
         grid-template-columns: repeat(1, 1fr);
+        padding: 0;
     }
     main .videos iframe {
+        background-color: red;
         width: 20rem;
-        height: 15rem;
+        height: 11rem;
         margin: 1rem 1rem;
     }
     main .imgs{
@@ -327,7 +382,63 @@ header img {
         justify-items: center;
         align-items: center;
     }
-    
+    main .bass{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .bass img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    main .drum{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .drum img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    main .piano{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .piano img {
+        width: 21rem;
+        height: 23rem;
+        margin: .8rem;
+    }
+    main .guitars{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .guitars img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    .titulo h2 {
+        font-size: 1.8rem;
+    }
+    .carousel-item{
+        height: 25rem;
+        }
+        .carousel-item img{ 
+            height: 100% !important; 
+        }
+}
+.final{
+    display: flex;
+    flex-direction: row;
 }
 .titulo{
     background-color:transparent;
@@ -336,46 +447,46 @@ header img {
 .titulo:hover{
     transform: scale(1.2);
 }
-main .drum {
+.drum {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
 }
-main .drum img {
+.drum img {
     height: 30rem;
     width: 30rem;
     margin: 1rem;
 }
-div.bass {
+.bass {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
 }
-div.bass img {
+.bass img {
     height: 30rem;
     width: 30rem;
     margin: 1rem;
 }
-main .guitars {
+.guitars {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
 }
-main .guitars img {
+.guitars img {
     height: 30rem;
     width: 30rem;
     margin: 1rem;
 }
-main .piano {
+.piano {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
 }
-main .piano img {
+.piano img {
     height: 30rem;
     width: 30rem;
     margin: 1rem;
@@ -385,7 +496,6 @@ main .piano img {
     align-items: center;
     justify-items: center;
 }
-
 .carousel-item img{
 width: 10rem;
 height: 45rem;
