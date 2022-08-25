@@ -1,0 +1,531 @@
+
+.botones nav ul li a {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    vertical-align: center;
+    font-size: 5rem;
+}
+.botones h1 {
+    font-size: 4rem;
+    text-align: left;
+}
+ul {
+    list-style: none;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+h3 {
+    color: black;
+}
+ .music{
+    display: inline-flex;
+    border: 2px;
+    color: black;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+main img {
+    display: inline-block;
+}
+main h2 {
+    font-size: 3.5rem;
+}
+main .imgs {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-items: center;
+    align-items: center;
+}
+main .imgs img {
+    height: 30rem;
+    width: 30rem;
+    margin: 1rem;
+}
+main .videos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    padding: 5rem;
+    align-items: center;
+}
+main .videos iframe {
+    width: 35rem;
+    height: 25rem;
+}
+header nav ul {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul li {
+    border: 3px solid transparent;
+    background-color:transparent;
+    font-size: 1.5rem;
+    padding: 1.3rem 2rem;
+}
+body {
+    background-color: whitesmoke;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    padding: 0.5rem;
+    grid-area: cabecera;
+}
+footer{
+    background-color: gainsboro;
+}
+footer a {
+    list-style: none;
+    color: black;
+    font-size: 2rem;
+}
+footer .mapa iframe{
+    width: 30rem;
+    height: 20rem;
+}
+div img {
+    height: 3rem;
+    width: 5rem;
+}
+.redes{
+    display: grid;
+    grid-template-columns: repeat(3);
+    float: left;
+}
+.redes img{
+    width: 4rem;
+    height: 4rem;
+}
+.redes h3{
+    text-align: left;
+}
+header img {
+    display: inline-flex;
+    width: 5rem;
+    height: 5rem;
+}
+.botones nav ul li a{
+    font-size: 1.5rem;
+}
+.final{
+    display: flex;
+    flex-direction: row;
+}
+.titulo{
+    background-color:transparent;
+    transition: all 2s;
+}
+.titulo:hover{
+    transform: scale(1.2);
+}
+.drum {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+}
+.drum img {
+    height: 30rem;
+    width: 30rem;
+    margin: 1rem;
+}
+.bass h2{
+    vertical-align: text-bottom;  
+    font-size: 2rem;
+}
+.bass{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+}
+.bass img {
+    height: 30rem;
+    width: 30rem;
+    margin: 1rem;
+}
+.guitars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.guitars img {
+    height: 30rem;
+    width: 30rem;
+    margin: 1rem;
+}
+.piano {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.piano img {
+    height: 30rem;
+    width: 30rem;
+    margin: 1rem;
+}
+.imagenes{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.carousel-item img{
+width: 10rem;
+height: 45rem;
+}
+footer .mapa{
+    width: 33rem;
+}
+@media (max-width: 575.98px){
+    html {
+        font-size: 15px;
+    }
+    header nav div ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    header nav ul li {
+        margin: 1rem;
+    }
+    main .videos {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
+    main .videos iframe {
+        width: 10rem;
+        height: 11rem;
+        margin: 1rem 1rem;
+    }
+    main .imgs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .bass{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .bass img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    main .drum{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+    main .drum img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    main .piano{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .piano img {
+        width: 21rem;
+        height: 23rem;
+        margin: .8rem;
+    }
+    main .guitars{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .guitars img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    .titulo h2 {
+        font-size: 1.8rem;
+    }
+    .carousel-item{
+        height: 25rem;
+    }
+    .carousel-item img{ 
+        height: 100% !important; 
+    }
+    .music h1 {
+        font-size: 3.2rem;
+        display: flex;
+        flex-direction: row;
+    }
+    footer a {
+        list-style: none;
+        color: black;
+        font-size: .5rem;
+    }
+    .redes{
+        display: grid;
+        grid-template-columns: repeat(3);
+        float: left;
+        vertical-align: middle;
+    }
+    .redes img {
+        width: 2rem;
+        height: 2rem;
+    }
+    footer .final{
+        width: 21rem;
+    }
+    footer .mapa iframe{
+        width: 15rem;
+        height: 15rem;
+    }
+ }
+ @media (max-width: 767.98px){
+    html {
+        font-size: 15px;
+    }
+    header nav div ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    header nav ul li {
+        margin: 1rem;
+    }
+    main .videos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    main .videos iframe {
+        width: auto;
+        height: auto;
+        margin: 1rem 1rem;
+    }
+    main .imgs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .imgs img {
+        height: 20rem;
+        width: 20rem;
+        margin: 1rem;
+    }
+    header img {
+        display: inline-flex;
+        width: 5rem;
+        height: 6rem;
+    }
+    main .bass{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .bass img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    main .drum{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .drum img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    main .piano{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .piano img {
+        width: 21rem;
+        height: 23rem;
+        margin: .8rem;
+    }
+    main .guitars{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .guitars img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    .titulo h2 {
+        font-size: 3rem;
+    }
+    .carousel-item{
+        height: 25rem;
+    }
+    .carousel-item img{ 
+            height: 100% !important; 
+    }
+    .music h1 {
+        font-size: 3.2rem;
+        display: flex;
+        flex-direction: row;
+    }
+    footer a {
+        list-style: none;
+        color: black;
+        font-size: .5rem;
+    }
+    .redes{
+        display: grid;
+        grid-template-columns: repeat(3);
+        float: left;
+        vertical-align: middle;
+    }
+    .redes img {
+        width: 2rem;
+        height: 2rem;
+    }
+    footer .final{
+        width: 21rem;
+    }
+    footer .mapa iframe{
+        width: 15rem;
+        height: 15rem;
+    }
+}
+@media (max-width: 991.98px){
+    html {
+        font-size: 15px;
+    }
+    header nav div ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    header nav ul li {
+        margin: 1rem;
+    }
+    main .videos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    main .videos iframe {
+        width: auto;
+        height: auto;
+        margin: 1rem 1rem;
+    }
+    main .imgs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .imgs img {
+        height: 20rem;
+        width: 20rem;
+        margin: 1rem;
+    }
+    header img {
+        display: inline-flex;
+        width: 5rem;
+        height: 6rem;
+    }
+    main .bass{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .bass img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    main .drum{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .drum img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    main .piano{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .piano img {
+        width: 21rem;
+        height: 23rem;
+        margin: .8rem;
+    }
+    main .guitars{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    main .guitars img {
+        width: 21rem;
+        height: 23rem;
+        margin: .5rem;
+    }
+    .titulo h2 {
+        font-size: 3rem;
+    }
+    .carousel-item{
+        height: 20rem;
+    }
+    .carousel-item img{ 
+            height: 19rem !important; 
+    }
+    .music h1 {
+        font-size: 3.2rem;
+        display: flex;
+        flex-direction: row;
+    }
+    footer a {
+        list-style: none;
+        color: black;
+        font-size: .5rem;
+    }
+    .redes{
+        display: grid;
+        grid-template-columns: repeat(3);
+        float: left;
+        vertical-align: middle;
+    }
+    .redes img {
+        width: 4rem;
+        height: 4rem;
+    }
+    footer .final{
+        width: 21rem;
+    }
+    footer .mapa iframe{
+        width: 15rem;
+        height: 15rem;
+    }
+}
